@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import Lenguajes from "./Lenguajes.jsx";
 import LeadDetails from "./LeadDetails.jsx";
 import Api from "./Api.jsx";
+import App from './App.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -10,6 +11,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Lenguajes /> */}
     {/* <Api /> */}
     <LeadDetails />
+    <App />
 
     
   </StrictMode>,
